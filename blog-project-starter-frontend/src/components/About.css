@@ -1,0 +1,204 @@
+:root {
+    --primary: #F97316;
+    --secondary: #111827;
+    --accent: #F8FAFC;
+}
+
+.section-1 {
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+.name {
+    font-size: 50px;
+    font-weight: 600;
+    color: var(--primary);
+}
+
+.about-text {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+/* CARDS */
+
+.card1,
+.card2,
+.card3 {
+    background-color: var(--secondary);
+    padding: 20px;
+    color: white;
+    border-radius: 15px;
+    margin-top: 10px;
+    transition: 0.3s ease;
+}
+
+.card1:hover,
+.card2:hover,
+.card3:hover {
+    transform: translateY(-5px);
+}
+
+.card1 h1,
+.card2 h1,
+.card3 h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.card1 h2,
+.card2 h2 {
+    font-size: x-large;
+}
+
+/* SKILLS */
+
+.section-2 h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+/* TITLES */
+
+.title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/* PROJECTS */
+
+.BulkmailProject,
+.E-Comm-Store,
+.weatherApp {
+    display: flex;
+    align-items: center;
+    background-color:darkgray;
+    color: black;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.BulkmailProject img,
+.E-Comm-Store img,
+.weatherApp img {
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.BulkmailProject p,
+.E-Comm-Store p,
+.weatherApp p {
+    font-weight: bold;
+}
+
+/* BUTTON */
+
+.checkout-btn {
+    display: inline-block;
+    background-color: var(--primary);
+    color: white;
+    padding: 8px 18px;
+    border-radius: 10px;
+    margin: 5px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.checkout-btn:hover {
+    transform: scale(1.05);
+}
+
+/* GITHUB */
+
+.github {
+    font-size: x-large;
+}
+
+.githublink {
+    text-decoration: underline;
+    color: var(--primary);
+    font-weight: bold;
+}
+
+/* CONTACT SECTION */
+
+.section-4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: var(--secondary);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.section4-heading {
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: var(--primary);
+}
+
+.section4-subheading {
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.contact-Title {
+    font-size: x-large;
+    color: var(--primary);
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    align-items: center;
+    font-size: x-large;
+    font-weight: 400;
+}
+
+.contact-info {
+    color: white;
+    font-size: larger;
+    font-family: sans-serif;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+    .contact-container,
+    .BulkmailProject,
+    .E-Comm-Store,
+    .weatherApp {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .name {
+        font-size: 35px;
+    }
+
+    .section4-heading {
+        font-size: 35px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+}
