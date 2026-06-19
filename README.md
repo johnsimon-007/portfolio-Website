@@ -4,7 +4,7 @@ A modern full-stack portfolio website built to showcase my skills, projects, res
 
 #Live Deployment Link:
 
-Vercel - https://portfolio-website-alpha-ten-57.vercel.app/blogs
+Vercel - https://portfolio-website-alpha-ten-57.vercel.app/home
 
 Render - https://portfolio-website-tpjs.onrender.com
 
