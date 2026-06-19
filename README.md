@@ -6,7 +6,7 @@ A modern full-stack portfolio website built to showcase my skills, projects, res
 
 Vercel - https://portfolio-website-alpha-ten-57.vercel.app/blogs
 
-backend(Render) - https://portfolio-website-tpjs.onrender.com
+Render - https://portfolio-website-tpjs.onrender.com
 
 ## 🌟 Features
 
@@ -62,7 +62,3 @@ backend(Render) - https://portfolio-website-tpjs.onrender.com
 - GitHub: https://github.com/johnsimon-007
 - LinkedIn: https://www.linkedin.com/in/john-simon
 - Email: johnsimonjmj@gmail.com
-
-## 📄 License
-
-This project is created for learning and portfolio purposes.
