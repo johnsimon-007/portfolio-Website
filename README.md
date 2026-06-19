@@ -2,6 +2,10 @@
 
 A modern full-stack portfolio website built to showcase my skills, projects, resume, and technical journey as a MERN Stack Developer.
 
+#Live Deployment Link:
+Vercel - https://portfolio-website-alpha-ten-57.vercel.app/blogs
+backend(Render) - https://portfolio-website-tpjs.onrender.com
+
 ## 🌟 Features
 
 - Responsive modern UI
