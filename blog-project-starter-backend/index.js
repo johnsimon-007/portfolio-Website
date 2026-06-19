@@ -7,11 +7,10 @@ require("dotenv").config();
 const app = express();
 app.use(
   cors({
-    origin: "https://portfolio-website-alpha-ten-57.vercel.app",
+    origin: true,
     methods: ["GET", "POST", "PATCH"],
   })
 );
-
 // Middleware
 app.use(bodyParser.json());
 
