@@ -4,6 +4,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const cors = require("cors")
+require("dotenv").config();
 
 const app = express();
 app.use(cors())
@@ -12,9 +13,13 @@ app.use(cors())
 app.use(bodyParser.json());
 
 // MongoDB Connection
-mongoose.connect('mongodb://localhost:27017/blogDB').then(()=>{
+console.log(process.env.MONGO_URI);
+mongoose.connect(process.env.MONGO_URI).then(()=>{
     console.log("Connection Successfull")
 })
+.catch((err) => {
+    console.log(err);
+});
 
 
 // Define Schema

@@ -15,6 +15,7 @@ import { useNavigate } from 'react-router-dom';
 import Footer from './common/Footer'
 import { Link } from "react-router-dom";
 
+
 function Home() {
     const navigate = useNavigate()
     return (
@@ -80,7 +81,14 @@ function Home() {
                     <h2 className='text-3xl sm:text-7xl font-bold'>My Awesome</h2>
                     <h2 className='text-3xl sm:text-7xl font-bold text-orange-400'>Services</h2>
                     <p className='my-2'>I have attahed my Resume here for your Reference</p>
-                    <button className='button-style mt-2'>Download CV</button>
+                    <a
+                        href="/John-Simon-Resume.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="button-style mt-2 inline-block"
+                    >
+                        Download CV
+                    </a>
 
                 </div>
             </div>
