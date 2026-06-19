@@ -5,12 +5,14 @@ import { BrowserRouter,Route,Routes } from "react-router-dom";
 import Login from "./components/Login";
 import Signup from "./components/Signup";
 import About from "./components/About";
+import { Navigate } from "react-router-dom";
 function App() {
   return (
    <div className="px-10  bg-white border rounded-md">
     <BrowserRouter>
     <Navbar/>
     <Routes>
+      <Route path="/" element={<Navigate to="/home" />} />
       <Route path="/home" element={<Home/>}></Route>
       <Route path="/blogs" element={<Blogs/>}></Route>
       <Route path="/login" element={<Login/>}></Route>
